@@ -122,3 +122,21 @@ ul.songs li {
   transform: scale(1.3);
   margin: 15px;
 }
+
+/*   MediaQueries!!!!   */
+@media only screen and (max-width: 768px) {
+
+  header {
+  background-image: url("/pictures/claus-grunstaudl-dKeB0-M9iiA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  position: relative; 
+  }
+
+}
