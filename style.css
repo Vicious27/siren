@@ -96,7 +96,7 @@ ul.songs li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 .container {
@@ -124,14 +124,28 @@ ul.songs li {
 }
 
   /*   MediaQueries!!!!   */
-  @media only screen and (max-width: 1224px) {
+   @media only screen and (min-width: 1366px) {
+     .container {
+      margin: 30px auto;
+      max-width: 100%;
+      width: 900px;
+      padding: 12px;
+    }
+   }
+
+
+  @media only screen and (max-width: 1024px) {
     header {
       background-repeat: no-repeat;
       display: flex;
       flex-direction: column;
+      align-items: center;
       background-size: cover;
       background-position: center center;
+      position: relative;
+      padding: 100px 0;
     }
+
     .container {
       margin: 30px auto;
       max-width: 100%;
@@ -143,7 +157,6 @@ ul.songs li {
   @media only screen and (max-width: 768px) {
 
     header {
-    background-image: url("/pictures/claus-grunstaudl-dKeB0-M9iiA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -154,7 +167,6 @@ ul.songs li {
     padding: 100px 0;
     position: relative; 
     }
-
   }
   
   @media only screen and (max-width: 570px) {
