@@ -23,7 +23,7 @@ button:focus {
 }
 
 header {
-  background: url(/pictures/claus-grunstaudl-dKeB0-M9iiA-unsplash.jpg);
+  background: url('pictures/claus-grunstaudl-dKeB0-M9iiA-unsplash.JPG');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
